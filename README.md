@@ -42,21 +42,3 @@ pip install spellchecker transformers jiwer
    ```
 
    This will output the average Word Error Rate for your transcripts.
-
-## Directory Structure
-
-The scripts expect a specific directory structure:
-
-```
-root_directory/
-├── DR1/
-│   ├── combined.txt
-│   ├── Wav2vec_transcript.txt
-│   ├── vosk_transcript.txt
-│   ├── Whisper_transcript.txt
-│   └── ...
-├── DR2/
-│   ├── combined.txt
-│   └── ...
-└── ...
-```
